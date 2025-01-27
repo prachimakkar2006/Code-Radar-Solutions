@@ -2,7 +2,7 @@
 int main() {
     char x;
     scanf("%c",&x);
-    if x==toupper(x){
+    if (x<="A" && y>="Z"){
         printf("Uppercase");
     }
     else{
