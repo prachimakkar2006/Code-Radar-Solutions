@@ -3,9 +3,9 @@
 int main() {
     float x,y;
     scanf("%f",&x);
-    printf("%f",x);
+    printf(".2%f\t",x);
     scanf("%f",&y);
-    printf("%f",x);
+    printf(".2%f",x);
     printf("Product: %f",x*y);
     
     return 0;
