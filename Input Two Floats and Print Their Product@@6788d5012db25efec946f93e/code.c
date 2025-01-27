@@ -2,11 +2,8 @@
 
 int main() {
     float x,y;
-    scanf("%f",&x);
-    printf("%f.2\t",x);
-    scanf("%f",&y);
-    printf("%f.2",x);
-    printf("Product: %f",x*y);
-    
+    scanf("%f %f",&x,&y);
+    printf("&f &f Product: &f",x,y,x*y);
+   
     return 0;
 }
