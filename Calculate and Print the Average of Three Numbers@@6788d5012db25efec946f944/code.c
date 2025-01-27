@@ -7,6 +7,6 @@ int main() {
     scanf("%d %d %d ",&x,&y,&z);
     int product= x*y*z;
     int final =product/3;
-    printf("Average: %d",product);
+    printf("Average: %.2d",product);
     return 0;
 }
