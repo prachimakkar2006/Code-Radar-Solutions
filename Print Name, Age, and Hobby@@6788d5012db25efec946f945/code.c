@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    char name[] ;
+    char Name[] ;
     int Age;
-    char hobby[];
-    scanf("%s %s %d ", &name ,&hobby, &Age);
-    printf("Name: %s",name);
+    char Hobby[];
+    scanf("%s %s %d ", &Name ,&Hobby, &Age);
+    printf("Name: %s" ,Name);
     printf("Age: %d",Age);
-    printf("Hobby: %s",hobby);
+    printf("Hobby: %s",Hobby);
     return 0;
 }
