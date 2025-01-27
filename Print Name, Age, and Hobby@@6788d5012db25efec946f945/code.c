@@ -4,7 +4,9 @@ int main() {
     char Name[] ;
     int Age;
     char Hobby[];
-    scanf("%s %s %d ", &Name ,&Hobby, &Age);
+    scanf("%s", &Name );
+    scanf("%d",&Age);
+    scanf("%s",&Hobby);
     printf("Name: %s" ,Name);
     printf("Age: %d",Age);
     printf("Hobby: %s",Hobby);
