@@ -2,11 +2,13 @@
 int main() {
    int x,y;
    scanf("%d %d",&x,&y);
-   if((x,y>0) &&( x,y<0)){
-    printf("Same Sign");
+   int out;
+   out=x*y;
+   if(out>0){
+    printf("Same sign");
    }
-   else if{
+   else{
     printf("Different Sign");
    }
-    return 0;
+   return 0;
 }
