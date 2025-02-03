@@ -5,7 +5,7 @@ int main() {
    int out;
    out=x*y;
    if(out>0){
-    printf("Same sign");
+    printf("Same Sign");
    }
    else{
     printf("Different Sign");
