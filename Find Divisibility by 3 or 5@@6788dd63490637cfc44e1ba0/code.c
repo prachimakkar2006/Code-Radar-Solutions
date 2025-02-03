@@ -14,6 +14,5 @@ int main() {
    else{
     pritnf("Not Divisible");
    }
-
     return 0;
 }
