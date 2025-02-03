@@ -1,25 +1,21 @@
 #include <stdio.h>
 int main() {
-    char x,y,z,a,c;
+    char x;
     scanf("%c",&x);
-    scanf("%c",&y);
-    scanf("%c",&z);
-    scanf("%c",&a);
-    scanf("%c",&c);
 
     if(x=='A'){
         printf("Excellent");
     }
-    else if (y=='B'){
+    else if (x=='B'){
         printf("Good");
     }
-    else if(z=='C'){
+    else if(x=='C'){
         printf("Average");
     }
-    else if(a=='D'){
+    else if(x=='D'){
         printf("Below Average"); 
     }
-    else if(c=='F'){
+    else if(x=='F'){
         printf("Fail");
     }
     else{
