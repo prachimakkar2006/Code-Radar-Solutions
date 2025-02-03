@@ -1,20 +1,15 @@
-#include <stdio.h>
-int main() {
+#include<stdio.h>
+ int main(){
     int x;
     scanf("%d",&x);
-    if(x>o)
-    {
-        printf("Positive\n");
+    if(x>0){
+        printf("Positive");
     }
-    else if(x<0)
-    {
-        printf("Negative\n");
+    else if (x<0){
+        printf("Negative");
     }
-    else
-    {
-        printf("Zero\n");
+    else{
+        printf("Zero");
     }
     return 0;
-}
-
-  
+ }
