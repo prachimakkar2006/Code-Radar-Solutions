@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main() {
     int x;
-    x=x>=1 && x<=12;
     scanf("%d",&x);
 
     if (x==2){
