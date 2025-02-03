@@ -9,12 +9,11 @@ int main() {
     else if((x>='b'&& x<='z')&&(x>='B'&&Y<='Z')){
         printf("Consonant");
     }
-    else if(x>int(0)&&x<=int(9)){
+    else if(x>=int(0)&&x<=int(9)){
         printf("Digit");
     }
     else{
         printf("Special Character");
-    }
     }
     return 0;
 }
