@@ -6,7 +6,7 @@ int main() {
     {
         printf("Vowel");
         }
-    else if (x>=0 && x<=9){
+    else if (x>=int(0) && x<=int(9)){
         printf("Digit");
     }
     else{
