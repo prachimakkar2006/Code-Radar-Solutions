@@ -3,15 +3,16 @@
 int main() {
     int x;
     scanf("%d",&x);
-    if(x>o){
+    if(x==o){
+        printf("Zero");
+    }
+    else if(x>0){
         printf("Positive");
     }
-    else if(x<0){
-        printf("Negative");
-    }
     else{
-        pritnf("Zero");
+        pritnf("Negative");
     }
+    return 0;
 }
 
   
