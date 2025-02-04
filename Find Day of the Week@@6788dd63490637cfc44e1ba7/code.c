@@ -2,11 +2,21 @@
 int main() {
     int x;
     scanf("%d",&x);
-    if(x==1||x==2||x==3||x==4||x==5||x==6||x==7){
-        printf("Monday"||"Tuesday"||"Wednesday"||"Thursday"||"Friday"||"Saturday"||"Sunday");
-    }
-    else{
-        printf("Invalid");
+    switch(x){
+        case 1:
+        printf("Monday");
+        case 2;
+        printf("Tuesday");
+        case 3:
+        printf("Wednesday");
+        case 4:
+        printf("Thursday");
+        case 5:
+        printf("Friday");
+        case 6:
+        printf("Saturday");
+        case 7:
+        printf("Sunday")
     }
     return 0;
 }
