@@ -8,21 +8,22 @@ int main() {
         break;
         case 2;
             printf("Tuesday");
-        break;
+            break;
         case 3:
             printf("Wednesday");
-        break;
+            break;
         case 4:
             printf("Thursday");
-        break;
+            break;
         case 5:
             printf("Friday");
+            break;
         case 6:
             printf("Saturday");
-        break;
+            break;
         case 7:
             printf("Sunday");
-        break;
+            break;
     }
     return 0;
 }
