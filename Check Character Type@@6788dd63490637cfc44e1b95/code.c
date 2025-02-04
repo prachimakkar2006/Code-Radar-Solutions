@@ -8,5 +8,8 @@ int main(){
     else if(x>='0'&&x<='9'){
         printf("Digit");
     }
+    else{
+        printf("Special Characeter");
+    }
     return 0;
 }
