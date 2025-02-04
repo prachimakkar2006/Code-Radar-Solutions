@@ -7,6 +7,6 @@ int main() {
     do(){
         i++;
         printf("%d",2**i);
-    }while(i<n)
+    }while(i<n);
     return 0;
 }
