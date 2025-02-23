@@ -4,6 +4,6 @@ int main(){
     scanf("%d",&n);    
     for(int i=1;i<=10;i++){
         m=n*i;
-        printf("%dX%d=%d\n",n,i,m);
+        printf("%d X %d = %d\n",n,i,m);
     }
 }
