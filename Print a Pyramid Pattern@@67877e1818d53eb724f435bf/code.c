@@ -4,7 +4,6 @@ int main(){
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         for(int j=1;j<=i+2*n-2;j++){
-            j=n/2;
             printf("*",j);
         }
         printf("\n");
