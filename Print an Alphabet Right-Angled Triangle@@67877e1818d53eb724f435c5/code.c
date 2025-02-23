@@ -8,7 +8,7 @@ int main(){
             printf("%c ",ch);
             
         }
-        ch=ch+1;
+        ch++;
         printf("\n");
     }
     return 0;
