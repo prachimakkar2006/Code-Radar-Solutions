@@ -8,7 +8,7 @@ int main(){
                 printf("*",j);
             }
             else{
-                printf(" ",j);
+                printf("8",j);
             }
         }
         printf("\n");
