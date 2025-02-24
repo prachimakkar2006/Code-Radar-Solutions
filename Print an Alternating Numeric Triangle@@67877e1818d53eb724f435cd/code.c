@@ -6,6 +6,12 @@ int main(){
         for(int j=1;j<=i;j++){
             printf("%d ",1);
         }
+        if(i%2==0 && j==n-1){
+            printf(0);
+        }
+        else{
+            printf(1);
+        }
         printf("\n");
     }
 }
