@@ -7,11 +7,12 @@ int main(){
             printf("%d ",j);
             if( j==1&&j==n ){
                 printf(" ");
+            }
             else{
                 printf("");
             }  
         printf("\n");      
-            }
+            
 
         }  
         }
