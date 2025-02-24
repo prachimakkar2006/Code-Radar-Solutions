@@ -6,7 +6,7 @@ int main(){
         for(int j=1;j<=i;j++){
             printf("%d ",j);
         }  
-        if(j==1&&j==n){
+        if( int j==1&& int j==n){
             printf(" ");
         }
         else{
