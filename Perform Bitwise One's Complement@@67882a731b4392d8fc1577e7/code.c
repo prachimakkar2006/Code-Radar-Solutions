@@ -3,7 +3,7 @@ int main(){
     int x;
     scanf("%d",&x);
     int out;
-    out=^x;
+    out=~x;
     printf("%d",out);
     retuen 0;
 
