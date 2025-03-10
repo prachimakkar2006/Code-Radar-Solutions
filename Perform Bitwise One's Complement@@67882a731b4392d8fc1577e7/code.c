@@ -5,7 +5,7 @@ int main(){
     int out;
     out=~x;
     printf("%d",out);
-    retuen 0;
+    return 0;
 
     
     
