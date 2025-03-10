@@ -6,5 +6,5 @@ int main() {
     int bit = (num >> n) & 1;
     printf("%d\n", bit);
 
-    return 0;
+return 0;
 }
