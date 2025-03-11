@@ -10,7 +10,7 @@ int main(){
         scanf("%d",&marks);
     }
     for(int i=1;i<=n;i++){
-        pt
+       
         
 
     }
