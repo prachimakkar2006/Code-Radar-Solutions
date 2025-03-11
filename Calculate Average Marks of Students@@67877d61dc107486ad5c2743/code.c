@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int n;
-    int roll_num[],marks[];
+    int roll_num[10],marks[100];
     char name[100];
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
