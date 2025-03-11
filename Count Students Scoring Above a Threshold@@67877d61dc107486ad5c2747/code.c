@@ -6,24 +6,25 @@ struct Student {
 };
 
 int main() {
-    int n, threshmarks;
+    int n;
+    float threshmarks;
     scanf("%d", &n);
     struct Student students[n];
     for (int i = 0; i < n; i++) {
         scanf("%d %s %f", &students[i].rollNumber, students[i].name, &students[i].marks);
     }
-    scanf("%d", &threshmarks);
+    scanf("%.2f", &threshmarks);
     int found = 0;
     for (int i = 0; i < n; i++) {
         if (students[i].marks > threshmarks) {
-            printf("Count of student scoring above %d: %d",threshmarks,i);
+            printf("Count of student scoring above %f: %d",threshmarks,i);
             found = 1;
             break;
         }
     }
 
     if (!found) {
-         printf("Count of student scoring above %d: 0",threshmarks);
+         printf("Count of student scoring above %f: 0",threshmarks);
     }
 
     return 0;
