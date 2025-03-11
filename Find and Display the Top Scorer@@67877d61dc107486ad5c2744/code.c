@@ -1,11 +1,14 @@
-
+#incclude<stdio.h>
+struct student{
+    int roll_number;
+    char name[50];
+    int marks;
+};
 int main(){
     int n;
     scanf("%d",&n);
-
-
-struct Student students[n];
-    for (i = 0; i < n; i++) {
-        scanf("%d %s %f", &students[i].rollNumber, students[i].name, &students[i].marks);
+    struct student[];
+    for(int i=1;i<=n;i++){
+        
     }
 }
