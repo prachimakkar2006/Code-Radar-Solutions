@@ -15,7 +15,7 @@ int main() {
     scanf("%d", &threshmarks);
     int found = 0;
     for (int i = 0; i < n; i++) {
-        if (students[i].marks > searchRoll) {
+        if (students[i].marks > threshmarks) {
             printf("Count of student scoring above %d: %d",threshmarks,i);
             found = 1;
             break;
@@ -24,8 +24,6 @@ int main() {
 
     if (!found) {
          printf("Count of student scoring above %d: 0",threshmarks);
-
-        
     }
 
     return 0;
