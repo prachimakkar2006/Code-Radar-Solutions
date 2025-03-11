@@ -18,14 +18,12 @@ int main() {
     for (int i = 0; i < n; i++) {
         if (students[i].marks > threshmarks) {
             printf("Count of student scoring above %.2f: %d",threshmarks,i);
-            found = 1;
-            break;
+        }
+        else{
+            printf("Count of student scoring above %.2f: %d",threshmarks);
         }
     }
 
-    if (!found) {
-         printf("Count of student scoring above %.2f: 0",threshmarks);
-    }
 
     return 0;
 }
