@@ -9,6 +9,11 @@ int main(){
     scanf("%d",&n);
     struct student[];
     for(int i=1;i<=n;i++){
+        or (i = 0; i < n; i++) {
+        printf("Roll Number: %d,", students[i].rollNumber);
+        printf(" Name: %s,", students[i].name);
+        printf(" Marks: %.2f \n", students[i].marks);
+    }
         
     }
 }
