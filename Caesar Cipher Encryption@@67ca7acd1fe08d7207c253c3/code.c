@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
-
 void caesarCipher(char message[], int shift, char encrypted[]) {
     for (int i = 0; message[i] != '\0'; i++) {
         char ch = message[i];
@@ -15,4 +13,4 @@ void caesarCipher(char message[], int shift, char encrypted[]) {
         }
     }
     encrypted[strlen(message)] = '\0'; 
-
+}
