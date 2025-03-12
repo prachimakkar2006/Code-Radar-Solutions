@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <string.h>
 
 void selectionSort(char arr[][100], int n) {
     int minIndex;
