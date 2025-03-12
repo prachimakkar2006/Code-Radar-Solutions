@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+
 
 int normalizeShift(int shift) {
     shift = shift % 26;    
