@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+
 
 char* compressString(char str[]) {
     static char compressed[200];
