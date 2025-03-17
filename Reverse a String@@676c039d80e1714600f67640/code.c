@@ -3,6 +3,7 @@
 int main(){
     char str[100];
     scanf("%s",&str);
-    strrev(str);
+    strrev();
     printf("%s ",str);
+    return 0;
 }
