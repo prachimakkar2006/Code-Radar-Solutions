@@ -14,7 +14,7 @@ for(int i=0;i<=n-1;i++){
         num2=arr[i];
     }
 }
-printf("%d %d",num,num2);
+printf("%d %d",num2,num);
     return 0;
 
 }
