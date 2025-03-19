@@ -7,12 +7,15 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     int count=0;
+    int count2=0;
     for(int i=0;i<n;i++){
         if(arr[i]/2==0){
             count+=1;
-            printf("%d",count);
         }
-
+        else{
+            count2+=1;
+        }
     }
+    printf("%d %d ",count,count2)
 
 }
