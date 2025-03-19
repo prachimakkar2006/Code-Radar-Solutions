@@ -16,6 +16,6 @@ int main(){
             count2+=1;
         }
     }
-    printf("%d %d ",count,count2)
+    printf("%d %d ",count,count2);
 
 }
