@@ -12,10 +12,8 @@ int main(){
         else if(arr[1]>arr[2]){
             printf("%d",arr[1]);
         }
-        else if(arr[2]>arr[1]){
+        else{
             printf("%d",arr[2]);
         }
-        else{
-            printf("-1");
-        }
+        
     }
