@@ -18,7 +18,6 @@ int main(){
         else if(arr[2]>arr[1]){
             printf("%d",arr[2]);
         }
-        break;
         else{
             printf("-1");
         }
