@@ -10,6 +10,7 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]/2==0){
             count+=1;
+            break;
         }
     }
     printf("%d",count);
