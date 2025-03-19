@@ -6,7 +6,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d\n",&arr[i]);
     }
-    for(int i=0;i<n;i++){
         if(arr[0]>arr[1]||arr[0]>arr[2]){
             printf("%d",arr[0]);
         }
@@ -20,4 +19,3 @@ int main(){
             printf("-1");
         }
     }
-}
