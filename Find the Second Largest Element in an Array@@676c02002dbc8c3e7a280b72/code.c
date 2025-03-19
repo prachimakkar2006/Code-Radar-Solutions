@@ -8,7 +8,7 @@ int main(){
     }
     int num=arr[0];
     for(int i=0;i<n;i++){
-        if(num>arr[i]){
+        if(num<arr[i]){
             num=arr[i-1];
         }
     }
