@@ -11,13 +11,16 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]==target){
             printf("%d",i);
+            if(arr[i]!=target){
+                printf("-1");
+            }
         }
     }
-    for(int i=0;i<n;i++){
-        if(arr[i]!=target){
-            printf("%d",-1);
-            break;
-        }
+    // for(int i=0;i<n;i++){
+    //     if(arr[i]!=target){
+    //         printf("%d",-1);
+    //         break;
+    //     }
     }
 
 
