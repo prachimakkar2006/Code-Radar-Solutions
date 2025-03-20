@@ -14,12 +14,10 @@ int main(){
             printf("%d",i);
             break;
             }
-        }
-    for(int i=0;i<n;i++){
-        if(arr[i]!=target){
+        else if(target!=arr[i]){
             printf("-1");
+            break;
+        }
         }
     }
- }
-
 
