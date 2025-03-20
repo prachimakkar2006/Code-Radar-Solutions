@@ -11,7 +11,7 @@ int main(){
             if(arr[j]>arr[j+1]){
                 int num=arr[j];
                 arr[j]=arr[j+1];
-                arr[j+1]=temp;
+                arr[j+1]=num;
             }
         }
     }
