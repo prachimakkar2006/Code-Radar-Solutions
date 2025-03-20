@@ -7,11 +7,13 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     int target;
+    int found=0;
     scanf("%d",&target);
     int found=0;
     for(int i=0;i<n;i++){
         if(arr[i]==target){
             printf("%d",i);
+            found+=1;
             break;
             }
         else if(target!=arr[i]){
