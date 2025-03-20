@@ -12,6 +12,7 @@ int main(){
         if(arr[i]>max){
             max=arr[i];
         }
+    }
     for(int i=0;i<n;i++){
         if((arr[i]>num)&&(num!=max)){
             num=arr[i];
@@ -20,6 +21,3 @@ int main(){
     printf("%d",num);
 
     }
-    
-
-}
