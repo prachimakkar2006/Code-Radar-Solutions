@@ -14,11 +14,12 @@ int main(){
             printf("%d",i);
             break;
             }
-        }
         else{
             printf("-1");
         }
-    }
+        }
+        }
+        
     // for(int i=0;i<n;i++){
     //     if(arr[i]!=target){
     //         printf("%d",-1);
