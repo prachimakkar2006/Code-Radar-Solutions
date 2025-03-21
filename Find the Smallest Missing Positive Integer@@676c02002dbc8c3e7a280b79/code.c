@@ -1,17 +1,28 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
+
     int arr[n];
-    int num=arr[0];
-    for(int i=0;i<n;i++){
-        scanf("%d ",&arr[i]);
+
+    // Taking input
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    for(int i=0;i<n;i++){
-        if(arr[i]<num){
-            num=arr[i];
+
+    // Initialize `num` with arr[0] after input
+    int num = arr[0];
+
+    // Finding the smallest element
+    for (int i = 1; i < n; i++) {
+        if (arr[i] < num) {
+            num = arr[i];
         }
     }
-    printf("%d",num+1);
-   
+
+    // Printing the smallest number + 1
+    printf("%d", num + 1);
+
+    return 0;
 }
