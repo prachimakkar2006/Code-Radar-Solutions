@@ -11,7 +11,7 @@ int main(){
         if(arr[i]<num){
             num=arr[i];
         }
-     printf("%d",arr[i]+1);
     }
+    printf("%d",arr[i]+1);
    
 }
