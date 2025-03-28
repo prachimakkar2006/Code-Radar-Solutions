@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int diff=arr[0]-arr[j];
+    int diff=arr[0]-arr[1];
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             if(arr[i]-arr[j]<diff){
