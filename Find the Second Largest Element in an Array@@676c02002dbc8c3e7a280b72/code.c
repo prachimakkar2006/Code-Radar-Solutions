@@ -15,5 +15,7 @@ int main(){
             }
         }
     }
-    printf("%d",arr[n-1]);
+    for(int i=0;i<n;i++){
+        printf("%d",arr[n-1]);
+    }
 }
