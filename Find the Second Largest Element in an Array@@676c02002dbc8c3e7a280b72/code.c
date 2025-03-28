@@ -22,7 +22,7 @@ int main() {
             second = arr[i];
         }
     }
-    printf("%d",second)
+    printf("%d",second);
 
     // If no second largest is found, return -1
     // printf("%d", second == -1 ? -1 : second);
