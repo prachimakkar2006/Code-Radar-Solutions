@@ -18,7 +18,5 @@ int main(){
             break;
         }
     }
-    if(!found){
-        printf("-1");
-    }
+    
     }
