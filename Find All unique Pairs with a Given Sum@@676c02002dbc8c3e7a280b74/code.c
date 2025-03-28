@@ -15,9 +15,10 @@ int main(){
                 printf("%d %d\n",arr[i],arr[j]);
                 }
                 }
+
+            }
             if(found==1){
                 break;
-            }
             }
         }
         
