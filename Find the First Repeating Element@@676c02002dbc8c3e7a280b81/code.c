@@ -12,12 +12,13 @@ int main(){
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 found=arr[j];
+                printf("%d",found);
                 count+=1;
+                break;
                 
             }
-        }
-        printf("%d",found);
         break;
+        }
        
     }
     if(!count){
