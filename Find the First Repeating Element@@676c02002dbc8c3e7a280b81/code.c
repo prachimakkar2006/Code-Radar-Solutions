@@ -15,11 +15,8 @@ int main(){
                 printf("%d",found);
                 count+=1;
                 break;
-                
             }
-        break;
-        }
-       
+        } 
     }
     if(!count){
         printf("-1");
