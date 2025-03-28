@@ -24,7 +24,4 @@ int main(){
     if(found==1){
         printf("%d",arr[n-2]);
     }
-    if(!found){
-        printf("-1");
-    }
 }
