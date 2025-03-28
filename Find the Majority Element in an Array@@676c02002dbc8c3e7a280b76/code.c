@@ -12,6 +12,9 @@ int main(){
             if(arr[i]==arr[j]){
                 count+=1;
             }
+            else if(arr[i]!=arr[j]){
+                printf("-1");
+            }
         }
         printf("%d",arr[i]);
         break;
