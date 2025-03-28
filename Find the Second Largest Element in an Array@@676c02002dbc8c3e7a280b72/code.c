@@ -7,10 +7,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-   
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
-
             if(n==1){
                 printf("-1");
                 found+=1;
@@ -20,11 +18,12 @@ int main(){
                 int c=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=c;
+                printf("%d",arr[n-2]);
                 
             }
             }
     }
-    printf("%d",arr[n-2]);
+    
     
     
 }
