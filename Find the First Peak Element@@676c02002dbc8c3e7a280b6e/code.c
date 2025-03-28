@@ -13,10 +13,9 @@ int main(){
             found+=1;
             break;
         }
-        else if(arr[i+1]>arr[i]){
-            printf("%d",arr[i+1]);
-            break;
-        }
+    }
+    if(!found){
+        printf("-1");
     }
     
     }
