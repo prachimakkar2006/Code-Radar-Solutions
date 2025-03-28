@@ -18,8 +18,6 @@ int main(){
                 }
                 }
                 }
-        if(found==1){
-            break;
         }
 
             }
