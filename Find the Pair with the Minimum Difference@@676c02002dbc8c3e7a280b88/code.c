@@ -21,7 +21,8 @@ int main(){
     for(int i=0;i<n;i++){
         int diff=arr[i+1]-arr[i];
         if(diff<min_diff){
-            printf("%d %d",arr[i+1],arr[i]);
+            printf("%d %d",arr[i],arr[i+1]);
+            break;
         }
 
         
