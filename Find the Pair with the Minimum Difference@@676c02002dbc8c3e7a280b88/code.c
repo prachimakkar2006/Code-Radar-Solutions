@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<limits.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -15,13 +16,15 @@ int main(){
             }
         }
     }
-    int diff=arr[1]-arr[0];
+    int min_diff=INT_MAX;
+
     for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(arr[i]-arr[j]<diff && arr[i]==arr[j]){
-                printf("%d %d",arr[i],arr[j]);
-            }
+        int diff=arr[i+1]-arr[i];
+        if(diff<min_diff){
+            printf("%d %d",arr[i+1],arr[i]);
         }
+
+        
         
     }
 }
