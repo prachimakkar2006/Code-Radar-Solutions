@@ -13,15 +13,16 @@ int main(){
                 int c=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=c;
-                found+=1;
-                printf("%d",arr[n-2]);
-                break;
+                
             }
     
             }
         
     }
   
+    if(found==1){
+        printf("%d",arr[n-2]);
+    }
     if(!found){
         printf("-1");
     }
