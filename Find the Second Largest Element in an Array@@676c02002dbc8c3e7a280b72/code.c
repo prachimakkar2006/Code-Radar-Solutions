@@ -9,6 +9,7 @@ int main(){
     }
     if(n==1){
         printf("-1");
+        foun+=1;
         break;
     }
     for(int i=0;i<n;i++){
@@ -17,7 +18,7 @@ int main(){
                 int c=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=c;
-                found+=1;    
+                
             }
             }
     }
