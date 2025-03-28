@@ -21,6 +21,7 @@ int main() {
             }
         }
     }
+    int found;
 
     // Finding minimum difference
     int min_diff = INT_MAX; // Initialize with a large value
@@ -28,10 +29,14 @@ int main() {
         int diff = arr[i] - arr[i - 1];
         if (diff < min_diff) {
             min_diff = diff;
+            found+=1;
         }
          printf("%d %d", arr[i-1],arr[i]);
          break;
     
+    }
+    if(!found){
+        printf("-1");
     }
 
    
