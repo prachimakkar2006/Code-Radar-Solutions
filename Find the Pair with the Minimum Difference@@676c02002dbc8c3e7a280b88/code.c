@@ -25,9 +25,5 @@ int main(){
         
     }
     
-    }
-    if(arr[i+1]-arr[i]<diff && arr[i]!=arr[i+1]){
-            diff=arr[i+1]-arr[i];
-            printf("%d %d",arr[i],arr[i+1]);
-        }
+    
     
