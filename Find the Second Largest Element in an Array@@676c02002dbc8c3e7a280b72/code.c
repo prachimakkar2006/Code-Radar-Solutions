@@ -7,13 +7,15 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    if(n==1){
-        printf("-1");
-        foun+=1;
-        break;
-    }
+   
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
+
+            if(n==1){
+                printf("-1");
+                found+=1;
+                break;
+    }
             if(arr[j]>arr[j+1]){
                 int c=arr[j];
                 arr[j]=arr[j+1];
