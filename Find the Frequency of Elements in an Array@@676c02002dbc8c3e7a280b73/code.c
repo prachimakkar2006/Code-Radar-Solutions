@@ -8,9 +8,12 @@ int main(){
     }
     int count=0;
     for(int i=0;i<n;i++){
-        if(arr[i]==arr[i]){
-            count+=1;
-            printf("%d %d\n",arr[i],count);
+        for(int j=i+1;j<n;j++){
+            if(arr[i]==arr[j]){
+                count+=1;
+                printf("%d %d\n",arr[i],count);
+            }
         }
+        
     }
 }
