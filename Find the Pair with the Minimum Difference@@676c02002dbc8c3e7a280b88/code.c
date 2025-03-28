@@ -17,11 +17,13 @@ int main(){
         }
     }
     int min_diff=INT_MAX;
+    int found=0;
 
     for(int i=0;i<n;i++){
         int diff=arr[i+1]-arr[i];
         if(diff<min_diff){
             printf("%d %d",arr[i],arr[i+1]);
+            found+=1;
             break;
         }
 
