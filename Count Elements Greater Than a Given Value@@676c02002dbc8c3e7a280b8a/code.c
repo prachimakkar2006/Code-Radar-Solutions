@@ -10,8 +10,7 @@ int main(){
     for(int i=0;i<N;i++){
         if(arr[i]>k){
             count+=1;
-            printf("%d",count);
-           
         }
+        printf("%d",count);
     }
 }
