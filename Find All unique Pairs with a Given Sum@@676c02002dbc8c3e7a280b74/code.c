@@ -15,7 +15,7 @@ int main(){
                 printf("%d %d\n",arr[i],arr[j]);
                 found+=1;
                 }
-            if(found ==1){
+            if(found<2){
                 printf("%d %d\n",arr[i],arr[j]);
                 break;
             }
