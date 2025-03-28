@@ -17,12 +17,11 @@ int main(){
     }
     int diff=arr[1]-arr[0];
     for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(arr[i]-arr[j]<diff){
-                diff=arr[i]-arr[j];
-                printf("%d %d",arr[i],arr[j]);
-            }
+        if(arr[i+1]-arr[i]<diff){
+            diff=arr[i+1]-arr[i];
+            printf("%d %d",arr[i+1],arr[i]);
         }
     }
     
     }
+    
