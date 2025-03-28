@@ -11,10 +11,11 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]>num){
             num=arr[i];
-            if(arr[i]%2==0){
-                printf("%d",arr[i]);
-                break;
+            if(num%2==0){
+                printf("%d",num);
             }
+            }
+        
         }
 
        
