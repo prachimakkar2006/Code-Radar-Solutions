@@ -8,8 +8,11 @@ int main(){
     }
     int product=arr[0]*arr[1];
     for(int i=0;i<n;i++){
-        if(arr[i]*arr[j]>product){
+        for(int j=0;j<n;j++){
+            if(arr[i]*arr[j]>product){
             product=arr[i]*arr[j];
+        }
+        
         }
     }
     printf("%d",product);
