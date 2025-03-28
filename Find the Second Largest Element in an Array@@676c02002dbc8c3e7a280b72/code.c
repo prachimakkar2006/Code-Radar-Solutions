@@ -18,6 +18,7 @@ int main(){
             }
         if(!found){
             printf("-1");
+            break;
         }
     }
     printf("%d",arr[n-2]);
