@@ -1,27 +1,19 @@
-#include <stdio.h>
-
-int main() {
+#include<stdio.h>
+int main(){
     int n;
-    scanf("%d", &n);
+    scanf("%d",&n);
     int arr[n];
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
     }
-
-    int first = arr[0], second = -1; 
-    for (int i = 1; i < n; i++) {
-        if (arr[i] > first) {  
-            second = first; 
-            first = arr[i];  
-        } else if (arr[i] > second && arr[i] != first) {   
-            second = arr[i];
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            if(arr[j]>arr[j+1]){
+                int c=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=c;
+            }
         }
     }
-    printf("%d",second);
-    if(!second){
-        printf("-1");
-    }
-
-    
-    return 0;
+    printf("%d",arr[n-1]);
 }
