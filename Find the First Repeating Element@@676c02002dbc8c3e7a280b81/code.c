@@ -16,7 +16,11 @@ int main(){
                 count+=1;
                 break;
             }
-        } 
+        }
+        if(count==1){
+            break;
+        }
+        
     }
     if(!count){
         printf("-1");
