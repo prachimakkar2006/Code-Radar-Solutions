@@ -6,15 +6,13 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
+    int c=arr[0];
     for(int i=0;i<n;i++){
-        for(int j=0;j<n-i-1;j++){
-            if(arr[j+1]>arr[j]){
-                int num=arr[j];
-                arr[j]=arr[j+1];
-                arr[j+1]=num;
-                printf("%d",arr[n-1]);
-            }
 
+        if(arr[i]>c){
+            c=arr[i];
+            printf("%d",c);
         }
     }
+    
 }
