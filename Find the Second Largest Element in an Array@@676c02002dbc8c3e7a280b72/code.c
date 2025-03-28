@@ -18,7 +18,8 @@ int main(){
             }
     }
     printf("%d",arr[n-2]);
-    if(n<2){
+    if(n==1){
         printf("-1");
     }
+    
 }
