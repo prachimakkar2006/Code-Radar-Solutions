@@ -13,10 +13,6 @@ int main(){
             found+=1;
             break;
         }
-        else if(arr[n]>arr[n-1]){
-            printf("%d",arr[n]);
-            break;
-        }
     }
     if(!found){
         printf("-1");
