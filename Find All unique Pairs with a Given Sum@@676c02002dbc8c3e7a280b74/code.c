@@ -13,7 +13,7 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]+arr[j]==target){
-                if(printd==o){
+                if(printd==0){
                      printf("%d %d\n",arr[i],arr[j]);
                      printd=1;
 
