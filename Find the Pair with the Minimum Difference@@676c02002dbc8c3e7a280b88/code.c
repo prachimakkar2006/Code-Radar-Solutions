@@ -6,13 +6,23 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int diff=arr[0]-arr[1];
     for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(arr[i]-arr[j]>diff){
-                diff=arr[i]-arr[j];
-                printf("%d %d ",arr[i],arr[j]);
+        for(int j=0;j<n;j++){
+            if(arr[j]>arr[j+1]){
+                int c=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=c;
             }
         }
     }
-}
+    int diff=arr[1]-arr[0];
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            if(arr[i]-arr[j]<diff){
+                diff=arr[i]-arr[j];
+                printf("%d %d",arr[i],arr[j]);
+            }
+        }
+    }
+    
+    }
