@@ -16,7 +16,7 @@ int main(){
                 
             }
         }
-        printf("%d",count);
+        printf("%d",found);
         break;
        
     }
