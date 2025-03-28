@@ -13,6 +13,6 @@ int main(){
             c=arr[i];
         }
     }
-    printf("%d",c);
+    printf("%d",c-1);
     
 }
