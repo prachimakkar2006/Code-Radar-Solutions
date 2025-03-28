@@ -11,7 +11,8 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(max%2==0){
-            printf("%d",max);
+            arr[i]=max;
+            printf("%d",arr[i]);
         }
         
     }
