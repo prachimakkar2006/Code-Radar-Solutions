@@ -29,7 +29,8 @@ int main() {
         if (diff < min_diff) {
             min_diff = diff;
         }
-         printf("%d %d", arr[i],arr[i-1]);
+         printf("%d %d", arr[i-1],arr[i]);
+         break;
     
     }
 
