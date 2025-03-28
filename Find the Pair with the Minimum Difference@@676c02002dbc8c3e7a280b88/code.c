@@ -1,17 +1,17 @@
 #include <stdio.h>
-#include <limits.h> // For INT_MAX
+#include <limits.h> 
 
 int main() {
     int n;
     scanf("%d", &n);
     int arr[n];
 
-    // Input array elements
+    
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
-    // Bubble Sort (Fixed)
+   
     for (int i = 0; i < n - 1; i++) { 
         for (int j = 0; j < n - 1 - i; j++) { 
             if (arr[j] > arr[j + 1]) { 
@@ -23,8 +23,8 @@ int main() {
     }
     int found;
 
-    // Finding minimum difference
-    int min_diff = INT_MAX; // Initialize with a large value
+    
+    int min_diff = INT_MAX; 
     for (int i = 1; i < n; i++) {
         int diff = arr[i] - arr[i - 1];
         if (diff < min_diff) {
