@@ -9,17 +9,17 @@ int main(){
     int target;
     int found;
     scanf("%d",&target);
-    int printd=0;
+    int found=0;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]+arr[j]==target){
-                if(printd==0){
-                     printf("%d %d\n",arr[i],arr[j]);
-    
-
+                printf("%d %d\n",arr[i],arr[j]);
+                found+=1;
+                if(found==1){
+                    break;
+                }
                 }
             }
         }
         
     }
-}
