@@ -20,8 +20,7 @@ int main(){
             }
         
     }
+    printf("%d",arr[n-2]);
   
-    if(found==1){
-        printf("%d",arr[n-2]);
-    }
+
 }
