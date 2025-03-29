@@ -19,7 +19,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(arr[i]==0){
-            arr[n]=arr[i];  
+            arr[i]=arr[n];  
         }
     printf("%d ",arr[i]);
     }
