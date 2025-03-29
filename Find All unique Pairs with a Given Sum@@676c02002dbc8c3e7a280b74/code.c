@@ -16,7 +16,11 @@ int main() {
     int found = 0;  
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
-            if (arr[i] + arr[j] == target) {
+            if (arr[i]==arr[j]){
+                printf("%d %d ",arr[i],arr[j]);
+                break;
+            }
+            else if (arr[i] + arr[j] == target) {
                 printf("%d %d\n", arr[i], arr[j]);
                 found = 1; 
                 break;  
