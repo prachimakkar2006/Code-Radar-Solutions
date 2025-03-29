@@ -10,9 +10,10 @@ int main(){
     int num1=INT_MAX;
     int num=arr[0];
     for(int i=0;i<n;i++){
-        if((arr[i]<num) && (num!=num1)){
+        if(num<arr[i] && num<num1 && num!=num1){
             num=arr[i];
         }
     }
-    printf("%d",num);
-}
+    printf("%d",arr[i]);
+    
+    }
