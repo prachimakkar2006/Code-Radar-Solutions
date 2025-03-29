@@ -23,8 +23,8 @@ int main(){
             }
             }
     }
-    printf("%d",arr[2]);.
-   if(!sorted){
+    printf("%d",arr[2]);
+   if(!sorted);
     printf("-1");
    }
 }
