@@ -19,12 +19,9 @@ int main(){
                 int c=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=c;
-                sorted+=1;
                 return 0;
             }
             }
     }
     printf("%d",arr[2]);
-   if(!sorted);
-    printf("-1");
    }
