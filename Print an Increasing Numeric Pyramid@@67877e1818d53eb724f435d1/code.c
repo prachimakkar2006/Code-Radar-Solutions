@@ -10,8 +10,9 @@ int main(){
             for(int j=0;j<=2*n-i;j++){
                 printf("%d",j);
             }
+            printf("\n");
         }
-        printf("\n");
+        
     }
 
 }
