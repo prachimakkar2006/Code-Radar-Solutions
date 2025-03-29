@@ -21,10 +21,5 @@ int main(){
             printf("YES");
             return 0;
         }
-        else{
-            printf("NO");
-        }
-        
-        
     }
 }
