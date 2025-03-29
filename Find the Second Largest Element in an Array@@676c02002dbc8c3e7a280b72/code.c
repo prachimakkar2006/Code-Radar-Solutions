@@ -11,14 +11,20 @@ int main(){
         printf("-1");
         return 0;
     }
+    int slargest=-1;
+    int sorted=0;
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             if(arr[j]<arr[j+1]){
                 int c=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=c;
+                sorted+=1;
             }
             }
     }
-    printf("%d",arr[2]);
+    printf("%d",arr[2]);.
+   if(!sorted){
+    printf("-1");
+   }
 }
