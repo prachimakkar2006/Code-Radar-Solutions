@@ -14,7 +14,7 @@ int main(){
     int slargest=-1;
     int sorted=0;
     for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
+        for(int j=0;j<n-i-1;j++){
             if(arr[j]<arr[j+1]){
                 int c=arr[j];
                 arr[j]=arr[j+1];
