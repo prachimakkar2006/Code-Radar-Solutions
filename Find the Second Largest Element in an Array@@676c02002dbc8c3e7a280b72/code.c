@@ -27,4 +27,3 @@ int main(){
    if(!sorted);
     printf("-1");
    }
-}
