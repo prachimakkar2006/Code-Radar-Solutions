@@ -12,7 +12,7 @@ int main(){
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 printf("%d %d ",arr[i],arr[j]);
-                return 0;
+                break;
             }
             else if(arr[i]+arr[j]==sum){
                 printf("%d %d\n",arr[i],arr[j]);
