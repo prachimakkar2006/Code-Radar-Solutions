@@ -8,11 +8,11 @@ int main(){
     }
     int max_freq=0,max_ele=-1;
     int  found;
-    int count=0;
     for(int i=0;i<n;i++){
         if(arr[i]==-1){
             continue;
         }
+        int count=1;
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
@@ -25,7 +25,7 @@ int main(){
             found=1;
         }
     }
-    if(count>=n/2){
+    if(max_freq>=n/2){
         printf("%d",max_ele);
     }
     else{
