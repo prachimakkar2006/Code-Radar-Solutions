@@ -17,6 +17,6 @@ int main(){
                 arr[j]=-1;
             }
         }
-        printf("%d",arrr[i]);
+        printf("%d",arr[i]);
     }
 }
