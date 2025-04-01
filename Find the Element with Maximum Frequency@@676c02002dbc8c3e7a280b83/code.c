@@ -1,28 +1,41 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
+    
     int arr[n];
-    for(int i=0; i<n; i++){
-        scanf("%d",&arr[i]);
+
+    // Read input
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    for(int i=0;i<n;i++){
-        if(arr[i]==-1){
+
+    int max_freq = 0, max_elem;
+
+
+    for (int i = 0; i < n; i++) {
+        if (arr[i] == -1) { 
             continue;
         }
-        int count=1;
-        for(int j=i+1;j<n;j++){
-            if(arr[i]==arr[j]){
-                count++;
-                arr[j]=-1;
-                int num=arr[0];
-                if(arr[j]<num){
-                    num=arr[j];
-                }
-                printf("%d ",num);
-            }
 
+        int count = 1; 
+
+        for (int j = i + 1; j < n; j++) {
+            if (arr[i] == arr[j]) {
+                count++; 
+                arr[j] = -1;
+            }
         }
-       
+
+        
+        if (count > max_freq) {
+            max_freq = count;
+            max_elem = arr[i];
+        }
     }
+
+    
+    printf("%d\n", max_elem);
+    return 0;
 }
