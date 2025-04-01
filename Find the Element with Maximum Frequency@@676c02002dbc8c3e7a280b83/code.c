@@ -19,8 +19,7 @@ int main(){
             }
             
         }
-        else if(count>max_fre){
-            
+        if(count>max_fre){
                 max_fre=count;
                 max_ele=arr[i];
             }
