@@ -17,11 +17,13 @@ int main(){
                 count++;
                 arr[j]=-1;
             }
-            else if(count>max_fre){
+            
+        }
+        else if(count>max_fre){
+            
                 max_fre=count;
                 max_ele=arr[i];
             }
-        }
     }
     printf("%d",max_ele);
 
