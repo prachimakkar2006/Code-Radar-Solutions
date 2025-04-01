@@ -22,7 +22,7 @@ int main(){
                 max_ele=arr[i];
             }
         }
-        printf("%d",max_ele);
     }
+    printf("%d",max_ele);
 
 }
