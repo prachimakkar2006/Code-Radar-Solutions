@@ -16,7 +16,8 @@ int main(){
                 count++;
                 arr[j]=-1;
             }
+            printf("%d",arr[i]);
         }
-        printf("%d",arr[i]);
+        
     }
 }
