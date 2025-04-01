@@ -25,7 +25,7 @@ int main(){
             found=1;
         }
     }
-    if(max_freq>=n/2){
+    if(max_freq>n/2){
         printf("%d",max_ele);
     }
     else{
