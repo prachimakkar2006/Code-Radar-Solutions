@@ -17,7 +17,7 @@ int main(){
                 count++;
                 arr[j]=-1;
             }
-            if(count>max_fre){
+            else if(count>max_fre){
                 max_fre=count;
                 max_ele=arr[i];
             }
