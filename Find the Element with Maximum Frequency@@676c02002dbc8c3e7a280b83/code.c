@@ -16,10 +16,10 @@ int main(){
                 count++;
                 arr[j]=-1;
                 int num=arr[0];
-                if(arr[j]>num){
+                if(arr[j]<num){
                     num=arr[j];
                 }
-                 printf("%d ",num);
+                printf("%d ",num);
             }
 
         }
