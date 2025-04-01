@@ -15,8 +15,13 @@ int main(){
             if(arr[i]==arr[j]){
                 count++;
                 arr[j]=-1;
+                int num=arr[0];
+                if(arr[j]>num){
+                    num=arr[j];
+                }
             }
+
         }
-        printf("%d \n",arr[i]);
+        printf("%d ",num);
     }
 }
