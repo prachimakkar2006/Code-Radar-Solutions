@@ -11,9 +11,9 @@ int main(){
     for(int i=0;i<n;i++){
         if((arr[i]%2==0) && (arr[i]>num)){
             num=arr[i];
-            found+=1;
-            break;
         }
+        found ==1;
+        break;
     }
     printf("%d",num);
     }
