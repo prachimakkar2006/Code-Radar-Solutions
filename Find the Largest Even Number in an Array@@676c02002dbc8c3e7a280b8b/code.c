@@ -12,7 +12,7 @@ int main(){
         if((arr[i]%2==0) && (arr[i]>num)){
             num=arr[i];
         }
-        found ==1;
+        found =1;
         break;
     }
     printf("%d",num);
