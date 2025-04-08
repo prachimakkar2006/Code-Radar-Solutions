@@ -12,7 +12,6 @@ int main(){
             if(arr[i]*arr[j]>product){
             product=arr[i]*arr[j];
         }
-        
         }
     }
     printf("%d",product);
