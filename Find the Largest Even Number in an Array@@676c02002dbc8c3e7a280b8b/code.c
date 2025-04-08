@@ -14,9 +14,13 @@ int main(){
             found+=1;
         }
     }
-    printf("%d",num);
-    if(found ==0){
+    if(found>0){
+        printf("%d",num);
+    }
+    else{
         printf("-1");
     }
+    
     }
+    
     
