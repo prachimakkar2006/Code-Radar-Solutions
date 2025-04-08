@@ -15,5 +15,8 @@ int main(){
         }
     }
     printf("%d",num);
+    if(found==0){
+        printf("-1");
+    }
     }
     
