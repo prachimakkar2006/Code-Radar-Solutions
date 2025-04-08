@@ -13,6 +13,9 @@ int main(){
             num=arr[i];
             found+=1;
         }
+        else if(arr[i]%2!=0){
+            printf("-1");
+        }
     }
     printf("%d",num);
     }
